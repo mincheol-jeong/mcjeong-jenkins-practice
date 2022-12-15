@@ -55,7 +55,7 @@ pipeline {
         stage('Glue Build') {
             steps{
 
-                build 'mcjeong-glue-build-test'
+                build 'mcjeong-glue-test'
             }
        }
 
